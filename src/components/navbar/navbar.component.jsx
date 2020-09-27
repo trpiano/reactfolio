@@ -8,24 +8,33 @@ import "./navbar.style.css"
 
 const NavBar = () => {
     return(
-        <>
-        <Navbar fixed="top" collapseOnSelect expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
+        <div>
+            <Navbar 
+            fixed="top" 
+            collapseOnSelect expand="md" 
+            variant="dark" 
+            className="animate-navbar nav-theme justify-content-between"
+        >
+        <div>
             <Navbar.Brand href="#home">
-                <img className="logo" src={Logo} alt="My Portfolio Logo"/>
+                <img className="logo" src={Logo} alt=""/>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ml-auto">
-                    <Nav.Link href="#features">Home</Nav.Link>
-                    <Nav.Link href="#pricing">About</Nav.Link>
-                    <Nav.Link href="#pricing">Skills</Nav.Link>
-                    <Nav.Link href="#pricing">Experience</Nav.Link>
-                    <Nav.Link href="#pricing">Projects</Nav.Link>
-                    <Nav.Link href="#pricing">Contact</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
-        </>
+        </div>
+            <div>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#experience">Experience</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+             </div>
+            </Navbar>
+        </div>
     )
 }
 

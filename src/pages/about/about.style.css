@@ -1,0 +1,17 @@
+.about {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.profile {
+    max-width: 18em;
+}
+
+.my-details{
+    background-color: rgba(255, 255, 255, 0,747);
+}
+
+.lb-button{
+    margin: 2px 0px -4px 0px;
+}
