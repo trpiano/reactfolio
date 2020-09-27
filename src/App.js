@@ -8,6 +8,7 @@ import NavBar from './components/navbar/navbar.component';
 import Carousal from './components/carousal/carousal.component';
 import TitleMessage from './components/title-massage/title.message.component';
 import About from './pages/about/about.component';
+import Skills from './pages/skills/skills.component';
 
 //Styles
 import './App.css';
@@ -19,18 +20,20 @@ const App = () => {
       <Carousal/>
       <TitleMessage />
       <div>
-        <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/background.webp")}
-          bgImageAlt=""
-          strength={-200}
-        >
+        <Parallax blur={{ min: -30, max: 30 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="" strength={-200}>
           <Container className="container-box rounded">
             <Fade duration={500}>
-              <About />
+              <About/>
             </Fade>
           </Container>
         </Parallax>
+      </div>
+      <div>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <Skills/>
+            </Fade>
+          </Container>
       </div>
     </div>
   );
