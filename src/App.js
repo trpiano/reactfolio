@@ -11,6 +11,7 @@ import About from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
 import Experience from './pages/experience/experience.component';
 import Timeline from './components/projects-timeline/projects-timeline.component'
+import ContactForm from './pages/contact-form/contact-form.component';
 
 //Styles
 import './App.css';
@@ -33,34 +34,43 @@ const App = () => {
 
       {/* Skills */}
       <div>
-          <Container className="container-box rounded">
-            <Fade duration={500}>
-              <Skills/>
-            </Fade>
-          </Container>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <Skills/>
+          </Fade>
+        </Container>
       </div>
 
       {/* Experience */}
       <div>
         <Parallax blur={{ min: -30, max: 30 }} strength={-200}>
-            <Container className="container-box rounded">
-              <Fade duration={500}>
-                <Experience/>
-              </Fade>
-            </Container>
-          </Parallax> 
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <Experience/>
+            </Fade>
+          </Container>
+        </Parallax> 
       </div>
 
       {/* TimeLine */}
       <div>
         <Parallax blur={{ min: -30, max: 30 }} strength={-200}>
-            <Container className="container-box rounded">
-              <Fade duration={500}>
-                <Timeline/>
-              </Fade>
-            </Container>
-          </Parallax> 
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <Timeline/>
+            </Fade>
+          </Container>
+        </Parallax> 
       </div>
+
+      {/* ContactForm */}
+        <Parallax blur={{ min: -30, max: 30 }} strength={-200}>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <ContactForm/>
+            </Fade>
+          </Container>
+        </Parallax> 
     </div>
   );
 }

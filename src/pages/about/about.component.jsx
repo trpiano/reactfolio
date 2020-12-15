@@ -33,16 +33,13 @@ const About = () => {
                             <Row className=" align-items-start p-2 my-details rounded">
                                 {/* Description */}
                                 Hi there, I am <strong>&nbsp;Timóteo Reinheimer Piano</strong>
-
-                                {/* Alterar desta linha para baixo. */}
-                                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                                <br />Passionate about technology, I was born and raised in a small town in the interior of São Paulo (Brazil) under the name Paraguaçu Paulista. I work with technical support and in the available hours I study a little more about fullstack development with React.
                                 <br />
-                                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
+                                Always looking for challenges that aim to make life easier for people in their daily lives through technology.
                                 <br />
-                                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                                And always improving our knowledge so that one day we can transform people's lives by showing them the wonders that technology can do for us.
                                 <br />
-                                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                                {/* Alterar desta linha para cima. */}
+                                I know that I am still at the beginning of a great journey, and I know that I will play my part in this great story known as information technology.
                             </Row>
                             <Row>
                                 {/* Buttons */}
@@ -67,7 +64,7 @@ const About = () => {
                                     </div>
                                     <div>
                                         <br/>
-                                        <a className="m-2" href="https://github.com/trpiano20" target="_blank" rel="noopener noreferrer">
+                                        <a className="m-2" href="https://github.com/trpiano" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="dark">
                                                 <img src={GitHub} alt="GitHub"/>
                                                 <p className="lb-button">GitHub</p>

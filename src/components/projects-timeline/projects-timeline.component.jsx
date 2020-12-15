@@ -9,7 +9,7 @@ import Card from 'react-bootstrap/Card';
 import L_REACT from "../../assets/img/skills/techs/react.svg";
 import L_HTML5 from "../../assets/img/skills/techs/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/techs/css3.svg";
-import L_REACTBOOT from "../../assets/img/skills/react-bootstrap.svg";
+import L_REACTBOOT from "../../assets/img/skills/techs/react-bootstrap.svg";
 import Image from "react-bootstrap/Image";
 
 //Projects
