@@ -1,6 +1,6 @@
 ## :file_folder: PortFolio with ReactJS
 
-![ReactFolio Image](https://github.com/trpiano/myportfolio/blob/dev/src/assets/img/projects/reactfolio.webp)
+![ReactFolio Image](https://github.com/trpiano/reactfolio/blob/dev/src/assets/img/projects/reactfolio.webp)
 
 In the project directory, you can run:
 
