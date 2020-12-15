@@ -1,4 +1,4 @@
-## :ledger: PortFolio with ReactJS
+## :file_folder: PortFolio with ReactJS
 
 ![ReactFolio Image](https://github.com/trpiano/myportfolio/blob/dev/src/assets/img/projects/reactfolio.webp)
 
