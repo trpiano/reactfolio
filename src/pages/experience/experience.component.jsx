@@ -25,12 +25,11 @@ const Experience = () => {
                                     <br />
                                     <strong>Role:</strong> Developer & Techinical Support Intern
                                     <br/>
-                                    <strong>Description:</strong> <strong>Developed & enhanced multiple features</strong> 
-                                    with full customizability option across web application. Debugging existing code to solve problems. 
-                                    Also worked as <strong>Production Support</strong> providing system maintenance, performing CRUD 
-                                    operations on databases along with extensive support during Critical Care Period.
+                                    <strong>Description: </strong>
+                                    I work most of the time with technical support in infrastructure and 
+                                    carrying out some small projects of responsive web development with PHP and ReactJS
                                     <br />
-                                    <strong>Technology:</strong> React JS
+                                    <strong>Technology:</strong>PHP & React JS
                                     <br />
                                     <strong>Duration:</strong> May 2019 - Present
                                 </Card.Text>
