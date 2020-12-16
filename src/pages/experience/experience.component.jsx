@@ -25,8 +25,9 @@ const Experience = () => {
                                     <br />
                                     <strong>Role:</strong>Techinical Support Intern & Developer
                                     <br/>
-                                    <strong>Description:</strong> I work most of the time with technical support in 
-                                            infrastructure and carrying out some small projects of responsive web development with PHP and ReactJS
+                                    <strong>Description: </strong>
+                                    I work most of the time with technical support in infrastructure and 
+                                    carrying out some small projects of responsive web development with PHP and ReactJS
                                     <br />
                                     <strong>Technology:</strong>PHP & React JS
                                     <br />

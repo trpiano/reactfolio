@@ -7,9 +7,9 @@ import Card from 'react-bootstrap/Card';
 
 // skills
 import L_REACT from "../../assets/img/skills/techs/react.svg";
-import L_HTML5 from "../../assets/img/skills/techs/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/techs/css3.svg";
+import L_JS from "../../assets/img/skills/techs/javascript.svg"
 import L_REACTBOOT from "../../assets/img/skills/techs/react-bootstrap.svg";
+import L_STYLED from "../../assets/img/skills/techs/styled-comp.png";
 import Image from "react-bootstrap/Image";
 
 //Projects
@@ -38,33 +38,16 @@ const ProjectTimeline = () => {
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong> 
-                                                <hr />
-                                                <strong>Features:</strong>
                                                 <ul className="list-styles pt-1">
-                                                    <li></li>
-                                                    <li></li>
+                                                    <li>SPA created using the ReactJS library;</li>
+                                                    <li>Hosting with production environment and testing environment using Vercel hosting.</li>
                                                 </ul>
                                                 <hr />
                                                 <strong>Tech used:</strong>
                                                 <ul>
                                                     <li>
                                                         <span className="p-2">
-                                                        <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1" /> HTML5
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                        <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1" /> CSS3
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                        <Image src={L_REACT} alt="React" rounded className="image-style1 m-1" /> React
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                        <Image src={L_REACTBOOT} alt="React BootStrap" rounded className="image-style1 m-1" /> React BootStrap
+                                                            <Image src={L_JS} alt="JavaScript" rounded className="image-style m-1" /> JavaScript
                                                         </span>
                                                     </li>
                                                 </ul>
@@ -73,22 +56,17 @@ const ProjectTimeline = () => {
                                                 <ul>
                                                     <li>
                                                         <span className="p-2">
-                                                        <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1" /> HTML5
+                                                            <Image src={L_REACT} alt="React" rounded className="image-style1 m-1" /> React
                                                         </span>
                                                     </li>
                                                     <li>
                                                         <span className="p-2">
-                                                        <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1" /> CSS3
+                                                            <Image src={L_REACTBOOT} alt="React BootStrap" rounded className="image-style1 m-1" /> React BootStrap
                                                         </span>
                                                     </li>
                                                     <li>
                                                         <span className="p-2">
-                                                        <Image src={L_REACT} alt="React" rounded className="image-style1 m-1" /> React
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                        <Image src={L_REACTBOOT} alt="React BootStrap" rounded className="image-style1 m-1" /> React BootStrap
+                                                            <Image src={L_STYLED} alt="Styled-Components" rounded className="image-style1 m-1"/> Styled-Components
                                                         </span>
                                                     </li>
                                                 </ul>
@@ -98,7 +76,7 @@ const ProjectTimeline = () => {
                                     </Accordion>
                                 </div>
                                 <div className="d-flex justify-content-between flex-nowrap text-center">
-                                    <UrlButton href="https://github.com/trpiano20/myportfolio" target="_blank">
+                                    <UrlButton href="https://github.com/trpiano/reactfolio" target="_blank">
                                     SOURCE CODE
                                     </UrlButton>
                                 </div>
