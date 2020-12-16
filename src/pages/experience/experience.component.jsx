@@ -21,9 +21,9 @@ const Experience = () => {
                             <Card.Body className="d-flex justify-content-center flex-column">
                                 <div>
                                 <Card.Text className="text-center style">
-                                    <strong className="body-title-style ">Infrastructure and Development Intern.</strong>
+                                    <strong className="body-title-style">Infrastructure and Development Intern.</strong>
                                     <br />
-                                    <strong>Role:</strong> Developer & Techinical Support Intern
+                                    <strong>Role:</strong>Techinical Support Intern & Developer
                                     <br/>
                                     <strong>Description:</strong> I work most of the time with technical support in 
                                             infrastructure and carrying out some small projects of responsive web development with PHP and ReactJS
