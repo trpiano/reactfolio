@@ -2,16 +2,16 @@
 
 ![ReactFolio Image](https://github.com/trpiano/reactfolio/blob/dev/src/assets/img/projects/reactfolio.webp)
 
-:arrow_forward: Vamos iniciar o processo de instalacao do projeto:
+:arrow_forward: Let's start the project installation process:
 
-:one: Para iniciar e necessario que realize um clone do repositorio em sua pasta Github ou faca o download do codigo em seu :computer: ;
+:one: To start it is necessary to make a clone of the repository in your Github folder or download the code in your :computer: ;
 
-:two: Em seguida digite o seguinte comando abaixo, ele ira instalar a pasta de node_modules, necessaria para o funcionamento do projeto;
+:two: Then type the following command below, it will install the node_modules folder, necessary for the project to work;
 
-    - :exclamation: Lembrando que este passo e melhor que seja realizado com o prompt de comando sendo executado como administrador.
+    - :exclamation: Remembering that this step is best done with the command prompt running as an administrator;
 ## npm install
 
-:three: Apos finalizado s instalacao basta iniciar o prompt de comando dentro da pasta do projeto e digitar o seguinte comando:
+:three: After installation is complete, just start the command prompt inside the project folder and type the following command;
 ## npm start
 
 
