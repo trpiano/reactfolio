@@ -7,6 +7,7 @@
 :one: Para iniciar e necessario que realize um clone do repositorio em sua pasta Github ou faca o download do codigo em seu :computer: ;
 
 :two: Em seguida digite o seguinte comando abaixo, ele ira instalar a pasta de node_modules, necessaria para o funcionamento do projeto;
+
     - :exclamation: Lembrando que este passo e melhor que seja realizado com o prompt de comando sendo executado como administrador.
 ## npm install
 
