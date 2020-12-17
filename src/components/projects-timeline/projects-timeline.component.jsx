@@ -26,7 +26,7 @@ const ProjectTimeline = () => {
                     <Events>
 
                         {/* Project: */}
-                        <ImageEvent date="02/10/2020" className="text-center" text="ReactFolio" src={ReactFolio} alt="ReactFolio">
+                        <ImageEvent date="16/12/2020" className="text-center" text="ReactFolio" src={ReactFolio} alt="ReactFolio">
                             <div className="d-flex justify-content-between flex-column mt-1">
                                 <div>
                                     <Accordion>

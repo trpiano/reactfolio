@@ -33,7 +33,7 @@ const About = () => {
                             <Row className=" align-items-start p-2 my-details rounded">
                                 {/* Description */}
                                 Hi there, I am <strong>&nbsp;Timóteo Reinheimer Piano</strong>
-                                <br />Passionate about technology, I was born and raised in a small town in the interior of São Paulo (Brazil) under the name Paraguaçu Paulista. I work with technical support and in the available hours I study a little more about fullstack development with React.
+                                <br />Passionate about technology, I was born and raised in a small town in the countryside of São Paulo (Brazil) under the name Paraguaçu Paulista. I work with technical support and in the available hours I study a little more about fullstack development with React.
                                 <br />
                                 Always looking for challenges that aim to make life easier for people in their daily lives through technology.
                                 <br />
