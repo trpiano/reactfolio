@@ -2,13 +2,16 @@
 
 ![ReactFolio Image](https://github.com/trpiano/reactfolio/blob/dev/src/assets/img/projects/reactfolio.webp)
 
-In the project directory, you can run:
+:arrow_forward: Vamos iniciar o processo de instalacao do projeto:
 
-### `npm start`
+:one: Para iniciar e necessario que realize um clone do repositorio em sua pasta Github ou faca o download do codigo em seu :computer: ;
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+:two: Em seguida digite o seguinte comando abaixo, ele ira instalar a pasta de node_modules, necessaria para o funcionamento do projeto;
+    - :exclamation: Lembrando que este passo e melhor que seja realizado com o prompt de comando sendo executado como administrador.
+## npm install
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+:three: Apos finalizado s instalacao basta iniciar o prompt de comando dentro da pasta do projeto e digitar o seguinte comando:
+## npm start
+
+
 
