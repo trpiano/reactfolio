@@ -55,7 +55,7 @@ const About = () => {
                                     </div>
                                     <div>
                                         <br/>
-                                        <a className="m-2" href="https://drive.google.com/file/d/14ylQdFor1fpGBp0rias62UaBeJEKVJX6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <a className="m-2" href="https://drive.google.com/file/d/1KXjpJWJU-QYlcIvoNoAyM7GFqf3uGf1k/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="info">
                                                 <img src={Resume} alt="Resume"/>
                                                 <p className="lb-button">My Resume</p>
