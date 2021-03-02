@@ -7,6 +7,16 @@
     animation: moveDown 0.5s ease-in-out;
 }
 
+.dropdown-nav{
+    background-color: #101018f8;
+    color: #fff;
+}
+
+.dropdown-nav:hover{
+    background-color: #101018f8;
+    color: #fff;
+}
+
 @keyframes moveDown{
     from{
         transfrom: translateY(-5rem);

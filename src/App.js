@@ -1,11 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
-import Container from 'react-bootstrap/Container';
 
 //Components
 import NavBar from './components/navbar/navbar.component';
 import Carousal from './components/carousal/carousal.component';
+import Container from 'react-bootstrap/Container';
 import TitleMessage from './components/title-massage/title.message.component';
 import About from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
