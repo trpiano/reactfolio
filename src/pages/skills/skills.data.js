@@ -10,7 +10,8 @@ import L_MYSQL from "../../assets/img/skills/techs/mysql.svg";
 import L_GIT from "../../assets/img/skills/techs/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/techs/github.svg";
 import L_VERCEL from "../../assets/img/skills/techs/vercel.png";
-import L_JAVASCRIPT from "../../assets/img/skills/techs/javascript.svg";
+import L_JAVASCRIPT from "../../assets/img/skills/techs/javascript.png";
+import L_TYPESCRIPT from "../../assets/img/skills/techs/typescript.svg"
 
 export const skills = {
     frontend : [
@@ -25,12 +26,6 @@ export const skills = {
             imgAltText: "CSS 3",
             imgSrc: L_CSS3,
             skillName: "CSS3",
-        },
-        {
-            link: "https://www.javascript.com/",
-            imgAltText: "JavaScript",
-            imgSrc: L_JAVASCRIPT,
-            skillName: "JavaScript",
         },
         {
             link: "https://reactjs.org/",
@@ -82,6 +77,12 @@ export const skills = {
             imgAltText: "JavaScript",
             imgSrc: L_JAVASCRIPT,
             skillName: "JavaScript",
+        },
+        {
+            link: "https://https://www.typescriptlang.org/",
+            imgAltText: "TypeScript",
+            imgSrc: L_TYPESCRIPT,
+            skillName: "TypeScript",
         },
     ],
 

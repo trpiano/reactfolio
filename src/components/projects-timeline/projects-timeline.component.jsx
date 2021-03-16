@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 
 // skills
 import L_REACT from "../../assets/img/skills/techs/react.svg";
-import L_JS from "../../assets/img/skills/techs/javascript.svg"
+import L_JS from "../../assets/img/skills/techs/javascript.png"
 import L_REACTBOOT from "../../assets/img/skills/techs/react-bootstrap.svg";
 import L_STYLED from "../../assets/img/skills/techs/styled-comp.png";
 import Image from "react-bootstrap/Image";
