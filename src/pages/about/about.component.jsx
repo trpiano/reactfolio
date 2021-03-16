@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button'
 import Profile from '../../assets/img/profile/profile.webp'
 import './about.style.css'
 
+import { i18n } from '../../translate/i18n'
 
 import Talk from '../../assets/icons/talk.webp'
 import Resume from '../../assets/icons/resume.webp'
@@ -18,7 +19,7 @@ const About = () => {
     return (
         <div id="about">
             <div className="about">
-                <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
+                <h1 className="pt-3 text-center font-details pb-3">{i18n.t('about.titles.app')}</h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
                        {/* Profile Pic */}

@@ -5,6 +5,8 @@ import Nav from 'react-bootstrap/Nav'
 import Logo from '../../assets/icons/logow.png'
 import "./navbar.style.css"
 
+import { i18n } from '../../translate/i18n';
+
 
 const NavBar = () => {
     return(
@@ -24,13 +26,13 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#experience">Experience</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
-                    </Nav>
+                        <Nav.Link href="#home">{i18n.t('navbar.titles.home')}</Nav.Link>
+                        <Nav.Link href="#about">{i18n.t('navbar.titles.about')}</Nav.Link>
+                        <Nav.Link href="#skills">{i18n.t('navbar.titles.skills')}</Nav.Link>
+                        <Nav.Link href="#experience">{i18n.t('navbar.titles.experience')}</Nav.Link>
+                        <Nav.Link href="#projects">{i18n.t('navbar.titles.projects')}</Nav.Link>
+                        <Nav.Link href="#contact">{i18n.t('navbar.titles.contact')}</Nav.Link>
+                    </Nav> 
                 </Navbar.Collapse>
              </div>
             </Navbar>
