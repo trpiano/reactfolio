@@ -33,14 +33,15 @@ const About = () => {
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-2 my-details rounded">
                                 {/* Description */}
-                                Hi there, I am <strong>&nbsp;Timóteo Reinheimer Piano</strong>
-                                <br />Passionate about technology, I was born and raised in a small town in the interior of São Paulo (Brazil) under the name Paraguaçu Paulista. I work with technical support and in the available hours I study a little more about fullstack development with React.
+                                {i18n.t('about.titles.initialp')} <strong>&nbsp;Timóteo Reinheimer Piano</strong>
                                 <br />
-                                Always looking for challenges that aim to make life easier for people in their daily lives through technology.
+                                {i18n.t('about.titles.firstp')}
                                 <br />
-                                And always improving our knowledge so that one day we can transform people's lives by showing them the wonders that technology can do for us.
+                                {i18n.t('about.titles.secondp')}
                                 <br />
-                                I know that I am still at the beginning of a great journey, and I know that I will play my part in this great story known as information technology.
+                                {i18n.t('about.titles.thirtp')}
+                                <br />
+                                {i18n.t('about.titles.fourthp')}
                             </Row>
                             <Row>
                                 {/* Buttons */}
@@ -50,7 +51,7 @@ const About = () => {
                                         <a className="m-2" href="#contact">
                                             <Button size="sm" variant="success">
                                                 <img src={Talk} alt="Talk"/>    
-                                                <p className="lb-button">Let's Talk</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.letstalk')}</p>
                                             </Button>
                                         </a>
                                     </div>
@@ -59,7 +60,7 @@ const About = () => {
                                         <a className="m-2" href="https://drive.google.com/file/d/1KXjpJWJU-QYlcIvoNoAyM7GFqf3uGf1k/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="info">
                                                 <img src={Resume} alt="Resume"/>
-                                                <p className="lb-button">My Resume</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.cv')}</p>
                                             </Button>
                                         </a>
                                     </div>
@@ -68,7 +69,7 @@ const About = () => {
                                         <a className="m-2" href="https://github.com/trpiano" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="dark">
                                                 <img src={GitHub} alt="GitHub"/>
-                                                <p className="lb-button">GitHub</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.github')}</p>
                                             </Button>
                                         </a>
                                     </div>
@@ -77,7 +78,7 @@ const About = () => {
                                         <a className="m-2" href="https://www.linkedin.com/in/timóteo-reinheimer-piano-771606164/" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="primary">
                                                 <img src={LinkedIn} alt="LinkedIn"/>
-                                                <p className="lb-button">LinkedIn</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.linkedIn')}</p>
                                             </Button>
                                         </a>
                                     </div>
