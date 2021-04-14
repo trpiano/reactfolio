@@ -10,10 +10,10 @@ import './about.style.css'
 
 import { i18n } from '../../translate/i18n'
 
-import Talk from '../../assets/icons/talk.webp'
-import Resume from '../../assets/icons/resume.webp'
+import Talk from '../../assets/icons/talk.svg'
+import Resume from '../../assets/icons/resume.svg'
 import GitHub from '../../assets/icons/github.webp'
-import LinkedIn from '../../assets/icons/linkedin.webp'
+import LinkedIn from '../../assets/icons/linkedin.svg'
 
 const About = () => {
     return (

@@ -1,7 +1,7 @@
 // Import skills icons.
 import L_HTML5 from "../../assets/img/skills/techs/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/techs/css3.svg";
-import L_STYLED from "../../assets/img/skills/techs/styled-comp.png";
+import L_STYLED from "../../assets/img/skills/techs/styled.svg";
 import L_REACT from "../../assets/img/skills/techs/react.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/techs/react-bootstrap.svg";
 import L_NODE_JS from "../../assets/img/skills/techs/nodejs.svg";
@@ -9,29 +9,31 @@ import L_MONGO from "../../assets/img/skills/techs/mongodb.svg";
 import L_MYSQL from "../../assets/img/skills/techs/mysql.svg";
 import L_GIT from "../../assets/img/skills/techs/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/techs/github.svg";
-import L_VERCEL from "../../assets/img/skills/techs/vercel.png";
-import L_JAVASCRIPT from "../../assets/img/skills/techs/javascript.png";
+import L_VERCEL from "../../assets/img/skills/techs/vercel.svg";
+import L_MIRAGE from "../../assets/img/skills/techs/miragejs.svg";
+import L_JAVASCRIPT from "../../assets/img/skills/techs/javascript.svg";
+import L_NEXT from "../../assets/img/skills/techs/nextjs.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/techs/typescript.svg"
 
 export const skills = {
     frontend : [
         {
             link: "https://en.wikipedia.org/wiki/HTML5",
-            imgAltText: "HTML 5",
+            imgAltText: "HTML5",
             imgSrc: L_HTML5,
             skillName: "HTML5",
         },
         {
             link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-            imgAltText: "CSS 3",
+            imgAltText: "CSS3",
             imgSrc: L_CSS3,
             skillName: "CSS3",
         },
         {
             link: "https://reactjs.org/",
-            imgAltText: "React JS",
+            imgAltText: "ReactJS",
             imgSrc: L_REACT,
-            skillName: "React JS",
+            skillName: "ReactJS",
         },
         {
             link: "https://react-bootstrap.github.io/",
@@ -45,14 +47,26 @@ export const skills = {
             imgSrc: L_STYLED,
             skillName: "Styled-Components",
         },
+        {
+            link: "https://nextjs.org/",
+            imgAltText: "NextJS",
+            imgSrc: L_NEXT,
+            skillName: "NextJS",
+        },
     ],
 
     backend : [
         {
             link: "https://nodejs.org/en/",
-            imgAltText: "Node.js",
+            imgAltText: "NodeJS",
             imgSrc: L_NODE_JS,
-            skillName: "Node.js",
+            skillName: "NodeJS",
+        },
+        {
+            link: "https://miragejs.com/",
+            imgAltText: "MirageJS",
+            imgSrc: L_MIRAGE,
+            skillName: "MirageJS",
         },
     ],
 

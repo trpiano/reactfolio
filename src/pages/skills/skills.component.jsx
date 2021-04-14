@@ -32,11 +32,8 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                      </Card>
-                    </Col>
-                
-                    {/* Backend */}
-                    <Col md={4}>
-                        <Card className="focus mt-2 mb-2">
+                     {/* Backend */}
+                     <Card className="focus mt-2 mb-2">
                             <Card.Body>
                                 <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.back')}</Card.Title>
                                  <hr />
@@ -51,7 +48,9 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-
+                    </Col>
+                
+                    <Col md={4}>
                         {/* Hosting Platforms */}
                         <Card className="focus mt-2 mb-2 ">
                              <Card.Body>
@@ -68,10 +67,7 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
-
-                    {/* Programming Languages */}
-                    <Col md={4}>
+                        {/* Programming Languages */}
                         <Card className="focus mt-2 mb-2">
                             <Card.Body>
                                 <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.languages')}</Card.Title>
@@ -87,9 +83,10 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                    </Col>
 
+                    <Col md={4}>
                         {/* Database */}
-
                         <Card className="focus mt-2 mb-2">
                             <Card.Body>
                                 <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.database')}</Card.Title>

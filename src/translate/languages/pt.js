@@ -9,6 +9,7 @@ const messages = {
                     experience: 'Experiências',
                     projects: 'Projetos',
                     contact: 'Contato',
+                    language: 'Idioma',
                 }
             },
             home: {
@@ -72,13 +73,23 @@ const messages = {
                     techused: 'Tecnologias Usadas',
                     libraries: 'Bibliotecas',
                     source: 'Código fonte',
+                    live: 'Ver Site',
                 },
                 apps: {
-                    date: '02/10/2020',
-                    firtsapp: 'ReactFolio',
-                    firstline: 'SPA criado usando a biblioteca ReactJS;',
-                    secondline: 'Hospedagem com ambiente de produção e ambiente de teste usando hospedagem Vercel.',
-
+                    reactfolio: {
+                        date: '10/02/2020',
+                        appname: 'ReactFolio',
+                        firstline: 'SPA criado usando a biblioteca ReactJS;',
+                        secondline: 'Hospedagem com ambiente de produção e ambiente de teste usando hospedagem Vercel.',
+                    },
+                    dtmoney: {
+                        date: '14/04/2021',
+                        appname: 'Dt Money',
+                        firstline: 'SPA criado usando a biblioteca ReactJS;',
+                        secondline: 'Hospedagem com ambiente de produção e ambiente de teste usando hospedagem Vercel;',
+                        thirtline: '',
+                        fourline: '',
+                    },
                 }
             },
             contact: {

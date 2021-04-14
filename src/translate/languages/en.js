@@ -9,6 +9,7 @@ const messages = {
                     experience: 'Experience',
                     projects: 'Projects',
                     contact: 'Contact',
+                    language: 'Language',
                 }
             },
             home: {
@@ -72,14 +73,24 @@ const messages = {
                     techused: 'Tech used',
                     libraries: 'Libraries',
                     source: 'Source Code',
+                    live: 'See Live',
                 },
                 apps: {
-                    date: '10/02/2020',
-                    firtsapp: 'ReactFolio',
-                    firstline: 'SPA created using the ReactJS library;',
-                    secondline: 'Hosting with production environment and testing environment using Vercel hosting.',
-
-                }
+                    reactfolio: {
+                        date: '10/02/2020',
+                        appname: 'ReactFolio',
+                        firstline: 'SPA created using the ReactJS library;',
+                        secondline: 'Hosting with production environment and testing environment using Vercel hosting.',
+                    },
+                    dtmoney: {
+                        date: '13/04/2021',
+                        appname: 'Dt Money',
+                        firstline: 'SPA created using the ReactJS library',
+                        secondline: 'Hosting with production environment and testing environment using Vercel hosting;',
+                        thirtline: '',
+                        fourline: '',
+                    },
+                },
             },
             contact: {
                 titles: {
