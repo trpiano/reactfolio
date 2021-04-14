@@ -8,17 +8,18 @@ import Button from 'react-bootstrap/Button'
 import Profile from '../../assets/img/profile/profile.webp'
 import './about.style.css'
 
+import { i18n } from '../../translate/i18n'
 
-import Talk from '../../assets/icons/talk.webp'
-import Resume from '../../assets/icons/resume.webp'
+import Talk from '../../assets/icons/talk.svg'
+import Resume from '../../assets/icons/resume.svg'
 import GitHub from '../../assets/icons/github.webp'
-import LinkedIn from '../../assets/icons/linkedin.webp'
+import LinkedIn from '../../assets/icons/linkedin.svg'
 
 const About = () => {
     return (
         <div id="about">
             <div className="about">
-                <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
+                <h1 className="pt-3 text-center font-details pb-3">{i18n.t('about.titles.app')}</h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
                        {/* Profile Pic */}
@@ -32,14 +33,15 @@ const About = () => {
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-2 my-details rounded">
                                 {/* Description */}
-                                Hi there, I am <strong>&nbsp;Timóteo Reinheimer Piano</strong>
-                                <br />Passionate about technology, I was born and raised in a small town in the countryside of São Paulo (Brazil) under the name Paraguaçu Paulista. I work with technical support and in the available hours I study a little more about fullstack development with React.
+                                {i18n.t('about.titles.initialp')} <strong>&nbsp;Timóteo Reinheimer Piano</strong>
                                 <br />
-                                Always looking for challenges that aim to make life easier for people in their daily lives through technology.
+                                {i18n.t('about.titles.firstp')}
                                 <br />
-                                And always improving our knowledge so that one day we can transform people's lives by showing them the wonders that technology can do for us.
+                                {i18n.t('about.titles.secondp')}
                                 <br />
-                                I know that I am still at the beginning of a great journey, and I know that I will play my part in this great story known as information technology.
+                                {i18n.t('about.titles.thirtp')}
+                                <br />
+                                {i18n.t('about.titles.fourthp')}
                             </Row>
                             <Row>
                                 {/* Buttons */}
@@ -49,7 +51,7 @@ const About = () => {
                                         <a className="m-2" href="#contact">
                                             <Button size="sm" variant="success">
                                                 <img src={Talk} alt="Talk"/>    
-                                                <p className="lb-button">Let's Talk</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.letstalk')}</p>
                                             </Button>
                                         </a>
                                     </div>
@@ -58,7 +60,7 @@ const About = () => {
                                         <a className="m-2" href="https://drive.google.com/file/d/1KXjpJWJU-QYlcIvoNoAyM7GFqf3uGf1k/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="info">
                                                 <img src={Resume} alt="Resume"/>
-                                                <p className="lb-button">My Resume</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.cv')}</p>
                                             </Button>
                                         </a>
                                     </div>
@@ -67,7 +69,7 @@ const About = () => {
                                         <a className="m-2" href="https://github.com/trpiano" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="dark">
                                                 <img src={GitHub} alt="GitHub"/>
-                                                <p className="lb-button">GitHub</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.github')}</p>
                                             </Button>
                                         </a>
                                     </div>
@@ -76,7 +78,7 @@ const About = () => {
                                         <a className="m-2" href="https://www.linkedin.com/in/timóteo-reinheimer-piano-771606164/" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="primary">
                                                 <img src={LinkedIn} alt="LinkedIn"/>
-                                                <p className="lb-button">LinkedIn</p>
+                                                <p className="lb-button">{i18n.t('about.buttons.linkedIn')}</p>
                                             </Button>
                                         </a>
                                     </div>

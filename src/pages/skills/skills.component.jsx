@@ -5,21 +5,21 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
-// import { Container } from './styles';
 import './skills.style.css';
 import { skills } from './skills.data'
+import { i18n } from '../../translate/i18n'
 
 const Skills = () => {
   return (
       <div className="pt33 pb-3" id="skills">
-            <h1 className="text-center font-details-b pb-4">Tech Skills</h1>
+            <h1 className="text-center font-details-b pb-4">{i18n.t('techskills.titles.app')}</h1>
             <CardDeck>
                 <Row className="d-flex justify-content-around">
                     {/* Frontend */}
                     <Col md={4}>
                         <Card className="focus mt-2 mb-2">
                             <Card.Body>
-                                <Card.Title className="text-center  card-title">Front-end</Card.Title>
+                                <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.front')}</Card.Title>
                                 <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                 {skills.frontend.map((skill, index) => (
@@ -32,13 +32,10 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                      </Card>
-                    </Col>
-                
-                    {/* Backend */}
-                    <Col md={4}>
-                        <Card className="focus mt-2 mb-2">
+                     {/* Backend */}
+                     <Card className="focus mt-2 mb-2">
                             <Card.Body>
-                                <Card.Title className="text-center  card-title">Back-end</Card.Title>
+                                <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.back')}</Card.Title>
                                  <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                     {skills.backend.map((skill, index) => (
@@ -51,11 +48,13 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-
+                    </Col>
+                
+                    <Col md={4}>
                         {/* Hosting Platforms */}
                         <Card className="focus mt-2 mb-2 ">
                              <Card.Body>
-                                <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
+                                <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.hosting')}</Card.Title>
                                 <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                     {skills.hostingPlatforms.map((skill, index) => (
@@ -68,13 +67,10 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
-
-                    {/* Programming Languages */}
-                    <Col md={4}>
+                        {/* Programming Languages */}
                         <Card className="focus mt-2 mb-2">
                             <Card.Body>
-                                <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
+                                <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.languages')}</Card.Title>
                                 <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                     {skills.programmingLanguages.map((skill, index) => (
@@ -87,12 +83,13 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                    </Col>
 
+                    <Col md={4}>
                         {/* Database */}
-
                         <Card className="focus mt-2 mb-2">
                             <Card.Body>
-                                <Card.Title className="text-center  card-title">DataBase</Card.Title>
+                                <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.database')}</Card.Title>
                                 <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                 {skills.databases.map((skill, index) => (
@@ -109,7 +106,7 @@ const Skills = () => {
 
                         <Card className="focus mt-2 mb-2">
                             <Card.Body>
-                                <Card.Title className="text-center  card-title">Version Control</Card.Title>
+                                <Card.Title className="text-center  card-title">{i18n.t('techskills.cards.version')}</Card.Title>
                                 <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                     <span className="p-2">

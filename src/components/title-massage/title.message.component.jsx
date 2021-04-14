@@ -2,6 +2,8 @@ import React from "react";
 import TypeWriter from "typewriter-effect";
 import Styled from "styled-components";
 
+import { i18n } from '../../translate/i18n';
+
 const MyTitleMessage = Styled.h1`
   position: absolute;
   width: 100%;
@@ -32,7 +34,7 @@ const TitleMessage = () => (
         <div className="titleMessage">
             <div className="heading">
                 <div className="main text-center mb-3">
-                    Hi, I am
+                   {i18n.t('home.titles.app')}
                     <br/>
                     <span>
                         <strong>Timóteo Reinheimer Piano</strong>
@@ -41,7 +43,10 @@ const TitleMessage = () => (
                 <div className="sub">
                     <TypeWriter
                     options={{
-                        strings: ['Web Developer','Learner', 'Passionate about technology!'],
+                        strings:[ i18n.t('home.writermessages.firstmessage'),
+                                  i18n.t('home.writermessages.secondmessage'), 
+                                  i18n.t('home.writermessages.thirtmessage')
+                                ],
                         autoStart: true,
                         loop: true,
                     }}
