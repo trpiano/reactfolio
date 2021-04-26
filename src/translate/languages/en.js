@@ -9,8 +9,12 @@ const messages = {
                     experience: 'Experience',
                     projects: 'Projects',
                     contact: 'Contact',
-                    language: 'Language',
-                }
+                    language: 'Language ',
+                },
+                languages: {
+                    portuguese: 'Portuguese',
+                    english: 'English',
+                },
             },
             home: {
                 titles: {
@@ -76,19 +80,13 @@ const messages = {
                     live: 'See Live',
                 },
                 apps: {
-                    reactfolio: {
-                        date: '10/02/2020',
-                        appname: 'ReactFolio',
-                        firstline: 'SPA created using the ReactJS library;',
-                        secondline: 'Hosting with production environment and testing environment using Vercel hosting.',
-                    },
                     dtmoney: {
                         date: '13/04/2021',
                         appname: 'Dt Money',
                         firstline: 'SPA created using the ReactJS library',
                         secondline: 'Hosting with production environment and testing environment using Vercel hosting;',
-                        thirtline: '',
-                        fourline: '',
+                        thirtline: 'Using MirageJS as FakeAPI to register transactions;',
+                        fourline: 'Complete styling with Styled-Components.',
                     },
                 },
             },

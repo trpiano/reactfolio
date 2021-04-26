@@ -10,7 +10,11 @@ const messages = {
                     projects: 'Projetos',
                     contact: 'Contato',
                     language: 'Idioma',
-                }
+                },
+                languages: {
+                    portuguese: 'Português',
+                    english: 'Inglês',
+                },
             },
             home: {
                 titles: {
@@ -76,19 +80,13 @@ const messages = {
                     live: 'Ver Site',
                 },
                 apps: {
-                    reactfolio: {
-                        date: '10/02/2020',
-                        appname: 'ReactFolio',
-                        firstline: 'SPA criado usando a biblioteca ReactJS;',
-                        secondline: 'Hospedagem com ambiente de produção e ambiente de teste usando hospedagem Vercel.',
-                    },
                     dtmoney: {
                         date: '14/04/2021',
                         appname: 'Dt Money',
                         firstline: 'SPA criado usando a biblioteca ReactJS;',
                         secondline: 'Hospedagem com ambiente de produção e ambiente de teste usando hospedagem Vercel;',
-                        thirtline: '',
-                        fourline: '',
+                        thirtline: 'Utilizando o MirageJS como FakeAPI para cadastro das transações;',
+                        fourline: 'Estilização completa com Styled-Components.',
                     },
                 }
             },
