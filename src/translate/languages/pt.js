@@ -88,6 +88,14 @@ const messages = {
                         thirtline: 'Utilizando o MirageJS como FakeAPI para cadastro das transações;',
                         fourline: 'Estilização completa com Styled-Components.',
                     },
+                    reactfolio: {
+                        date: '16/12/2020',
+                        appname: 'ReactFolio',
+                        firstline: 'SPA created using the ReactJS library',
+                        secondline: 'Hosting with production environment and testing environment using Vercel hosting;',
+                        thirtline: 'Using MirageJS as FakeAPI to register transactions;',
+                        fourline: 'Complete styling with Styled-Components.',
+                    },
                 }
             },
             contact: {
