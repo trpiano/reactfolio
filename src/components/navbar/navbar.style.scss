@@ -10,11 +10,11 @@
 .dropdown-nav{
     background-color: #101018f8;
     color: #fff;
-}
 
-.dropdown-nav:hover{
-    background-color: #101018f8;
-    color: #fff;
+    :hover{
+        background-color: #101018f8;
+        color: #fff;
+    }
 }
 
 @keyframes moveDown{

@@ -3,18 +3,18 @@ import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
 
 //Components
-import NavBar from './components/navbar/navbar.component';
-import Carousal from './components/carousal/carousal.component';
+import NavBar from '../../components/navbar/navbar.component';
+import Carousal from '../../components/carousal/carousal.component';
 import Container from 'react-bootstrap/Container';
-import TitleMessage from './components/title-massage/title.message.component';
-import About from './pages/about/about.component';
-import Skills from './pages/skills/skills.component';
-import Experience from './pages/experience/experience.component';
-import Timeline from './components/projects-timeline/projects-timeline.component'
-import ContactForm from './pages/contact-form/contact-form.component';
+import TitleMessage from '../../components/title-massage/title.message.component';
+import About from '../../pages/about/about.component';
+import Skills from '../../pages/skills/skills.component';
+import Experience from '../../pages/experience/experience.component';
+import Timeline from '../../components/projects-timeline/projects-timeline.component'
+import ContactForm from '../../pages/contact-form/contact-form.component';
 
 //Styles
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (

@@ -7,7 +7,7 @@ import grupotb from "../../assets/img/experience/grupotb.png";
 
 import { i18n } from '../../translate/i18n';
 
-import "./experience.style.css";
+import "./experience.style.scss";
 
 const Experience = () => {
     return(

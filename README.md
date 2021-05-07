@@ -1,18 +1,62 @@
-## :file_folder: PortFolio with ReactJS
+<div align="center" id="top"> 
+  <img src="./src/assets/icons/logow.svg" alt="02 Dtmoney" />
+</div>
 
-![ReactFolio Image](https://github.com/trpiano/reactfolio/blob/dev/src/assets/img/projects/reactfolio.webp)
+<hr/>
+<br>
 
-:arrow_forward: Let's start the project installation process:
+## About
 
-:one: To start it is necessary to make a clone of the repository in your Github folder or download the code in your :computer:
+This applications is an personal portfolio.
 
-:two: Then type the following command below, it will install the node_modules folder, necessary for the project to work
+## Screenshots
 
-:exclamation: Remembering that this step is best done with the command prompt running as an administrator
-## npm install
+<div align="center" id="top"> 
+  <img src="./src/assets/img/projects/reactfolio.png" alt="ReactFolio" />
+</div>
+<br/>
 
-:three: After installation is complete, just start the command prompt inside the project folder and type the following command
-## npm start
+## Features
 
+- List all technologies known to different categories.
+- List the projects worked on, which technologies were used, the existing features in each project.
 
+## Technologies
 
+The following tools were used in this project:
+
+- [React](https://pt-br.reactjs.org/)
+- [React-BootStrap](https://react-bootstrap.github.io)
+- [Styled Componensts](https://styled-components.com/)
+
+## Requirements
+
+Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## Starting
+
+```bash
+# Clone this project
+$ git clone https://github.com/trpiano/reactfolio
+
+# Access
+$ cd reactfolio
+
+# Install dependencies
+$ yarn
+# Or
+$ npm
+
+# Run the project
+$ yarn dev
+# Or
+$ npm start
+
+# The server will initialize in the <http://localhost:3000>
+```
+
+Made with 💜 by <a href="https://github.com/trpiano" target="_blank">Timoteo Piano</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
