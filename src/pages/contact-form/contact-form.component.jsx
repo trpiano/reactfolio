@@ -24,16 +24,16 @@ const ContactFrom = () => {
                             </a>
                         </div>
                         <div className="m-2">
-                            <a href="https://github.com/trpiano" target="_blank" rel="noopener noreferrer">
-                                <Button variant="outline-light" title="Mu other projects">
-                                    <i className="fab fa-github-square"></i> {i18n.t("contact.titles.github")}
+                            <a href="https://www.linkedin.com/in/timóteo-reinheimer-piano-771606164/" target='_blank' rel="noopener noreferrer">
+                                <Button variant="outline-primary" title="Visit mt LinkedIn">
+                                    <i className="fab fa-linkedin"></i> {i18n.t("contact.titles.linkedIn")}
                                 </Button>
                             </a>
                         </div>
                         <div className="m-2">
-                            <a href="https://www.linkedin.com/in/timóteo-reinheimer-piano-771606164/" target='_blank' rel="noopener noreferrer">
-                                <Button variant="outline-primary" title="Visit mt LinkedIn">
-                                    <i className="fab fa-linkedin"></i> {i18n.t("contact.titles.linkedIn")}
+                            <a href="https://github.com/trpiano" target="_blank" rel="noopener noreferrer">
+                                <Button variant="outline-light" title="Mu other projects">
+                                    <i className="fab fa-github-square"></i> {i18n.t("contact.titles.github")}
                                 </Button>
                             </a>
                         </div>

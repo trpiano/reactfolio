@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 
 import Profile from '../../assets/img/profile/profile.webp'
-import './about.style.css'
+import './about.style.scss'
 
 import { i18n } from '../../translate/i18n'
 
@@ -57,7 +57,7 @@ const About = () => {
                                     </div>
                                     <div>
                                         <br/>
-                                        <a className="m-2" href="https://drive.google.com/file/d/1KXjpJWJU-QYlcIvoNoAyM7GFqf3uGf1k/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <a className="m-2" href="https://drive.google.com/file/d/1YJeC9QpWF39foBeRiys3kO5Jk-WVVvc2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                             <Button size="sm" variant="info">
                                                 <img src={Resume} alt="Resume"/>
                                                 <p className="lb-button">{i18n.t('about.buttons.cv')}</p>

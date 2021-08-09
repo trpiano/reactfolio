@@ -72,6 +72,9 @@ export const Dtmoney = () => {
                         <UrlButton href="https://github.com/trpiano/dtmoney" className="button-url" target="_blank">
                             {i18n.t('projects.titles.source')}
                         </UrlButton>
+                        <UrlButton href="https://dtmoney-swart.vercel.app" className="button-url" target="_blank">
+                            {i18n.t('projects.titles.live')}
+                        </UrlButton>
                     </div>
                 </div>
             </ImageEvent>
