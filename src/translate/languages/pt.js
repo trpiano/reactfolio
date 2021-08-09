@@ -80,6 +80,13 @@ const messages = {
                     live: 'Ver Site',
                 },
                 apps: {
+                    richtext: {
+                        date: '05/07/2021',
+                        appname: 'RichTextEditor',
+                        firstline: 'SPA criado usando a biblioteca ReactJS;',
+                        secondline: 'Seletor de modo claro e escuro (estado armazenado no localstorage);',
+                        thirtline: 'Estilização completa com Styled-Components.',
+                    },
                     dtmoney: {
                         date: '14/04/2021',
                         appname: 'Dt Money',

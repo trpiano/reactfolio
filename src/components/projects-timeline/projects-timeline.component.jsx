@@ -4,6 +4,7 @@ import { i18n } from '../../translate/i18n'
 
 import { Dtmoney } from './projects/dtmoney/project.dtmoney';
 import { Reactfolio } from './projects/reactfolio/project.reactfolio'
+import { Richtexteditor } from './projects/richtexteditor/project.richtext'
 
 const customTheme = createTheme(themes.default, {
     timelineTrack: {
@@ -20,12 +21,13 @@ const customTheme = createTheme(themes.default, {
 })
 
 const ProjectTimeline = () => {
-    return(
+    return (
         <div id='projects'>
             <h1 className="pt-3 text-center font-details-b pb-3">{i18n.t('projects.titles.app')}</h1>
             <Timeline theme={customTheme}>
                 <Events>
                     {/* Project: */}
+                    <Richtexteditor />
                     <Dtmoney />
                     <Reactfolio />
                 </Events>
