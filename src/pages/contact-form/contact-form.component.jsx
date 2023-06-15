@@ -1,9 +1,11 @@
 import React from "react";
+
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "./contact-form.styles.css"
+
+import "./contact-form.styles.scss"
 
 import { i18n } from "../../translate/i18n"
 
@@ -30,7 +32,7 @@ const ContactFrom = () => {
                         </div>
                         <div className="m-2">
                             <a href="https://github.com/trpiano" target="_blank" rel="noopener noreferrer">
-                                <Button variant="outline-dark" title="Mu other projects">
+                                <Button variant="outline-light" title="Mu other projects">
                                     <i className="fab fa-github-square"></i> {i18n.t("contact.titles.github")}
                                 </Button>
                             </a>

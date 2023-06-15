@@ -10,7 +10,11 @@ const messages = {
                     projects: 'Projetos',
                     contact: 'Contato',
                     language: 'Idioma',
-                }
+                },
+                languages: {
+                    portuguese: 'Português',
+                    english: 'Inglês',
+                },
             },
             home: {
                 titles: {
@@ -76,19 +80,28 @@ const messages = {
                     live: 'Ver Site',
                 },
                 apps: {
-                    reactfolio: {
-                        date: '10/02/2020',
-                        appname: 'ReactFolio',
+                    richtext: {
+                        date: '05/07/2021',
+                        appname: 'RichTextEditor',
                         firstline: 'SPA criado usando a biblioteca ReactJS;',
-                        secondline: 'Hospedagem com ambiente de produção e ambiente de teste usando hospedagem Vercel.',
+                        secondline: 'Seletor de modo claro e escuro (estado armazenado no localstorage);',
+                        thirtline: 'Estilização completa com Styled-Components.',
                     },
                     dtmoney: {
                         date: '14/04/2021',
                         appname: 'Dt Money',
                         firstline: 'SPA criado usando a biblioteca ReactJS;',
                         secondline: 'Hospedagem com ambiente de produção e ambiente de teste usando hospedagem Vercel;',
-                        thirtline: '',
-                        fourline: '',
+                        thirtline: 'Utilizando o MirageJS como FakeAPI para cadastro das transações;',
+                        fourline: 'Estilização completa com Styled-Components.',
+                    },
+                    reactfolio: {
+                        date: '16/12/2020',
+                        appname: 'ReactFolio',
+                        firstline: 'SPA created using the ReactJS library',
+                        secondline: 'Hosting with production environment and testing environment using Vercel hosting;',
+                        thirtline: 'Using MirageJS as FakeAPI to register transactions;',
+                        fourline: 'Complete styling with Styled-Components.',
                     },
                 }
             },

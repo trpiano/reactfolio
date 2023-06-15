@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import { LangPicker } from '../language-picker/languagepicker'
+import { LangPicker } from '../language-picker/languagepicker.jsx'
 
 import Logo from '../../assets/icons/logow.svg'
-import "./navbar.style.css"
+import "./navbar.style.scss"
 
 import { i18n } from '../../translate/i18n';
 

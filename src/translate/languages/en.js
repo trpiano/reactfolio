@@ -9,8 +9,12 @@ const messages = {
                     experience: 'Experience',
                     projects: 'Projects',
                     contact: 'Contact',
-                    language: 'Language',
-                }
+                    language: 'Language ',
+                },
+                languages: {
+                    portuguese: 'Portuguese',
+                    english: 'English',
+                },
             },
             home: {
                 titles: {
@@ -76,19 +80,25 @@ const messages = {
                     live: 'See Live',
                 },
                 apps: {
-                    reactfolio: {
-                        date: '10/02/2020',
-                        appname: 'ReactFolio',
+                    richtext: {
+                        date: '07/05/2021',
+                        appname: 'RichTextEditor',
                         firstline: 'SPA created using the ReactJS library;',
-                        secondline: 'Hosting with production environment and testing environment using Vercel hosting.',
+                        secondline: 'Light and dark mode selector (state in local storage);',
+                        thirtline: 'Complete styling with Styled-Components.',
                     },
                     dtmoney: {
-                        date: '13/04/2021',
+                        date: '04/13/2021',
                         appname: 'Dt Money',
                         firstline: 'SPA created using the ReactJS library',
+                        secondline: 'Using MirageJS as FakeAPI to register transactions;',
+                        thirtline: 'Complete styling with Styled-Components.',
+                    },
+                    reactfolio: {
+                        date: '12/16/2020',
+                        appname: 'ReactFolio',
+                        firstline: 'SPA created using the ReactJS library',
                         secondline: 'Hosting with production environment and testing environment using Vercel hosting;',
-                        thirtline: '',
-                        fourline: '',
                     },
                 },
             },
